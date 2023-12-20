@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Untitled\ \(10\).png);
+    opacity: 0.7;
+    background-size: cover;
+    
+}
+
+ .navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    /* background-color: aqua; */
+    border-radius: 15px;
+    
+    /* box-shadow: -10px 10px 5px lightblue; */
+
+} 
+.navbar_list{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar_list ul{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar_list ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+    
+}
+
+header ul a:hover{
+    color: red;
+}
+
+header .hire_btn {
+    background-color: red;
+    color: #fff;
+    padding: 9px 16px;
+    border-radius: 0px 20px 5px 20px;
+    box-shadow:  5px -4px 5px green; 
+}
+
+header .hire_btn:hover{
+    background-color: #fff;
+    color: red;
+    border: 1.2px solid;
+    border-color: red;
+    
+}
+
+.home_text{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 9%;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+ 
+.home_text h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+
+
+.objective{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#element{
+    color: aqua;
+}
+
+.home_text a{
+    margin-top: 10%;
+    margin-left: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: green;
+    color: #fff;
+    padding: 9px 16px;
+    border-radius: 0px 20px 5px 20px;
+    box-shadow:  5px -4px 5px red; 
+}
+
+.home_text p span{
+    color: red;
+    font-size: 22px;
+}
+
+.home_text a:hover{
+    background-color: #fff;
+    color: green;
+    border: 1.2px solid;
+    border-color: green;
+}
+
+
+
+/* ------------about----------- */
+
+#about{
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    padding: 60px 0;
+    color: #ababab;
+    padding: 0 6%;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_col_1{
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.about_col_1 img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px -2px 50px #ea4848;
+}
+
+.about_col_2{
+    flex-basis: 55%;
+}
+
+.sub_title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab_titles{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab_links{
+    font-size: 18px;
+    font-weight: 500;
+    color: aqua;
+    background-color: rgb(10, 84, 10);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.edcation_div h3{
+    color: yellowgreen;
+}
+
+
+
+
+/*------------- Skills -------------- */
+ 
